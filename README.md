@@ -43,10 +43,12 @@ Here are some highlights of the project. Even if it's a simple API, I wanted to 
 ## 🚀 Setup Instructions
 
 1. Install Docker Desktop and have the docker daemon running.
-2. Clone the repository: `git clone {repository-url}`.
+2. Clone the repository: `git clone https://github.com/Josegs95/api-rest.git`.
 3. Rename `.env.example` file to `.env` and adjust it.
-4. Build and run the project: `docker compose up --build` in the repo directory.
+4. Build and run the project: `docker compose up --build` in the repo directory. [^1]
 5. The API should now be running at: `http://localhost:8080`
+
+[^1]: You must have the Docker daemon running. Start Docker Desktop to launch it.
 
 ## 📄 API Documentation
 
